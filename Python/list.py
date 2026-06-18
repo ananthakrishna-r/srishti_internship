@@ -1,3 +1,9 @@
+a=[]
+for i in range(1,11):
+    a.append(i)
+print(a)
+
+
 #a=["c","c++","java"]
 #a.insert(2,"python")
 #print(a)
@@ -48,3 +54,9 @@ for g in no:
     if g % 2 !=0:
         count+=1
 print("odd",count) 
+
+
+a=[1,2,3]
+b=[4,5,6]
+a.extend(b)
+print(a)
